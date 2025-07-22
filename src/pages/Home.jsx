@@ -124,7 +124,7 @@ const Home = () => {
                                 You bring the hustle. We’ll handle the rest.
 
                             </p>
-                            <Link to='/athlete-signup' className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-[#d4bc6d] font-medium text-[0.875rem] mb-9">
+                            <Link to='/athlete-signup' className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-black font-medium text-[0.875rem] mb-9">
                                 Join the Family
                             </Link>
                         </div>
@@ -185,9 +185,9 @@ const Home = () => {
                         <h2 className="text-[7.5rem] capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-10">
                             Brand Marketplace <br /> coming soon
                         </h2>
-                        <button className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-black font-medium text-[0.875rem] mb-9">
+                        <Link to='/athlete-signup' className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-black font-medium text-[0.875rem] mb-9">
                             Join the Family
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </section>
