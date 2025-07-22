@@ -17,9 +17,12 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="max-w-[200px]">
-                            <h4 className='text-lg font-medium text-[#D4BC6D] mb-[33px]'>Home</h4>
+                            {/* <h4 className=''>Home</h4> */}
+                            <a href="/home" className='text-lg font-medium text-[#D4BC6D] mb-[33px]'>
+                                    Home
+                                </a>
                             <div className="flex flex-col gap-7">
-                                <a href="#" className='text-lg font-semibold text-white capitalize'>
+                                <a href="/explore" className='text-lg font-semibold text-white capitalize'>
                                     Shop by
                                 </a>
                                 <a href="#" className='text-lg font-semibold text-white capitalize'>

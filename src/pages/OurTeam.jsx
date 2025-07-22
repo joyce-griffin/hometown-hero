@@ -5,7 +5,7 @@ const OurTeam = () => {
     return (
         <>
             <section className='py-16 bg-black'>
-                <h1 className='text-[10rem] mt-12 mb-0 text-center capitalize font-bold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent '>
+                <h1 className='text-[10rem] mt-10 mb-0 text-center capitalize font-bold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent '>
                     Our Leaders
                 </h1>
 
@@ -29,7 +29,7 @@ const OurTeam = () => {
                             homeTown: ['Bridgewater', 'Virginia'],
                         },
                         {
-                            name: "Alek Giatopoulous Moore",
+                            name: "Alek Giotopoulos Moore",
                             image: "/team1.jpeg",
                             rating: 0,
                             subTitle: "CEO",

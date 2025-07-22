@@ -4,7 +4,7 @@ import CarouselSlider2 from '../components/CarouselSlider2'
 const ExploreAthletes = () => {
     return (
         <>
-            <section className="bg-black flex flex-col items-center p-8">
+            <section className="bg-black flex flex-col items-center p-2">
                 <h1 className='text-[6.875rem] my-[181px] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent '>
                     Explore Athletes
                 </h1>

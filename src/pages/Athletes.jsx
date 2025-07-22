@@ -89,7 +89,7 @@ const Athletes = () => {
                                 Why Choose Us
                             </button>
                             <h2 className="text-[4.125rem] font-bold capitalize bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent tracking-[-1.98px]">
-                                Maximize Your NIL Potential
+                                Clothing
                             </h2>
                             <div className="w-[43rem] mx-auto">
                                 <img src="/user-cash.svg" alt="user with cash" className="w-full h-[37.625rem] object-contain mb-3.5" />
@@ -798,7 +798,7 @@ const Athletes = () => {
 
 
 
-            <section className="w-full h-[100dvh] relative">
+            <section className="w-full h-[100dvh] relative hidden">
                 <img src="/download-app.svg" alt="download" className="w-full h-full object-contain" />
                 <div className="absolute right-[24px] bottom-[47px] z-10">
                     <a href="#" className="bg-black rounded-full px-[56px] inline-block py-[32px] text-[#d4bc6d] font-extrabold text-[1.25rem] mb-9">

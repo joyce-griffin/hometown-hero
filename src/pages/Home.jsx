@@ -47,6 +47,11 @@ const Home = () => {
                         },
                     ]
                 } />
+               
+                <h1 className='text-[6.875rem] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-5'>
+                    Furious 5 Incoming...
+                </h1>
+                
                 <p className="text-xl text-center font-medium text-[#adadad] max-w-[1523px] mx-auto">
                     Within the first month, we’ll be selecting the Furious 5 — our top 5 earning athletes on the platform.
                     <br />
@@ -55,9 +60,6 @@ const Home = () => {
                     Let’s see who earns their spot. It’s game time.
 
                 </p>
-                <h1 className='text-[6.875rem] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-5'>
-                    Furious 5 Incoming...
-                </h1>
 
                 {/* <h1 className='text-[6.875rem] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-5'>
                     This Month's Furious 5
@@ -75,9 +77,9 @@ const Home = () => {
                     10,023
                 </h2>
 
-                <button className="bg-[#d4bc6d] font-extrabold px-[23px] py-[14px] text-[1.156rem] rounded-[11.6px] mt-[-25px]">
+                <Link to={explore-athletes} className="bg-[#d4bc6d] font-extrabold px-[23px] py-[14px] text-[1.156rem] rounded-[11.6px] mt-[-25px]">
                     View Athlete Marketplace
-                </button>
+                </Link>
             </section>
 
             {/* second section */}
@@ -170,7 +172,7 @@ const Home = () => {
                             </Link>
                         </div>
                         <div className="">
-                            <img src="/alek.jpeg" alt="about us" className="w-full h-[515px] object-cover object-top rounded-2xl" />
+                            <img src="/alek.jpeg" alt="about us" className="w-full h-[250px] object-fill object-top rounded-2xl" />
                         </div>
                     </div>
                 </div>
