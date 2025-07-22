@@ -124,7 +124,7 @@ const Home = () => {
                                 You bring the hustle. We’ll handle the rest.
 
                             </p>
-                            <Link to='/our-team' className="bg-[#2e2e2e] rounded-full px-[38px] py-[13px] text-[#d4bc6d] font-medium text-[0.875rem] mb-9">
+                            <Link to='/athlete-signup' className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-[#d4bc6d] font-medium text-[0.875rem] mb-9">
                                 Join the Family
                             </Link>
                         </div>
@@ -186,7 +186,7 @@ const Home = () => {
                             Brand Marketplace <br /> coming soon
                         </h2>
                         <button className="bg-[#d4bc6d] rounded-full px-[38px] py-[13px] text-black font-medium text-[0.875rem] mb-9">
-                            Learn More
+                            Join the Family
                         </button>
                     </div>
                 </div>
