@@ -17,7 +17,7 @@ const Header = () => {
     },
     {
       name: 'services',
-      link: 'store-front',
+      link: 'athletes',
       // items: [
       //   { name: 'Consulting', href: '#' },
       //   { name: 'Support', href: '#' },
