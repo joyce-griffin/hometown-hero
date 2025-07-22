@@ -17,6 +17,7 @@ const Header = () => {
     },
     {
       name: 'services',
+      link: 'store-front',
       // items: [
       //   { name: 'Consulting', href: '#' },
       //   { name: 'Support', href: '#' },
@@ -25,6 +26,7 @@ const Header = () => {
     },
     {
       name: 'shop by',
+      link: 'explore-athletes',
       // items: [
       //   { name: 'Category', href: '#' },
       //   { name: 'Brand', href: '#' },
