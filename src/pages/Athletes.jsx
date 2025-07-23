@@ -18,77 +18,77 @@ const featureList = [
     id: 2,
     title: 'Acid Wash Clothing',
     description: "A bold, vintage look for athletes who don’t follow trends — they set them. Acid wash is for those who stand out. This collection brings raw energy and retro vibes to your brand. Whether it’s tees, hoodies, or shorts, this line lets you drop a statement with every launch. It’s gritty, it’s unique, and it reflects the battles you’ve fought on and off the field. Let your personality show in every thread.",
-    image: '/user-cash.svg',
+    image: '/acid_wash.png',
     locked: false,
   },
   {
     id: 3,
     title: 'Jerseys',
     description: "You're not just repping a name. You're representing a legacy. Every athlete deserves a jersey with their name on it. Whether it's a throwback look, gameday-ready design, or a limited-edition drop, your jersey represents your team, your supporters, and your mission. Fans don’t just want merch — they want to be part of something. Give them a piece of your journey they can wear with pride.",
-    image: '/user-cash.svg',
+    image: '/jerseys.png',
     locked: false,
   },
   {
     id: 4,
     title: 'Footwear',
     description: "Walk your own path — now do it in style. Custom footwear is more than a flex — it’s a platform. Drop sneakers and slides designed with your personal flair, built for comfort and movement. Whether it’s pre-game walk-ins or streetwear statements, you’ll be remembered for every step. This is where fashion meets ambition — lace it up and lead the way.",
-    image: '/user-cash.svg',
+    image: '/footwear.png',
     locked: false,
   },
   {
     id: 5,
     title: 'Home & Lifestyle',
     description: "Bring your brand into the daily lives of your fans. Your brand doesn’t stop at what you wear. From custom mugs to posters, pillows to blankets, this category allows your supporters to live with your story. Turn everyday spaces into inspiration hubs and let your brand become a part of people’s lives — from the kitchen to the living room.",
-    image: '/user-cash.svg',
+    image: '/home_lifestyle.png',
     locked: false,
   },
   {
     id: 6,
     title: 'Accessories',
     description: "Small details. Big impact.Sometimes it’s the little things that leave the biggest impression. Keychains, phone cases, bags, and more — accessories are perfect for giveaways, fan drops, and content packs. Affordable, creative, and memorable — they’re an easy way to expand your brand and reach every corner of your community.",
-    image: '/user-cash.svg',
+    image: '/accessories.png',
     locked: false,
   },
   {
     id: 7,
     title: 'Strength Supplements',
     description: 'Fuel your grind. Build your brand. Athletes aren’t just selling a look — they’re selling a lifestyle. With this service, you can launch high-quality supplements that match your performance. Whether it’s pre-workout, recovery, or protein blends, you’re giving fans and teammates a product they can trust. Power your brand with what powers you.',
-    image: '/user-cash.svg',
+    image: '/strength.png',
     locked: false,
   },
   {
     id: 8,
     title: 'Health',
     description: "More than a product — it’s a lifestyle shift. This category is about pushing the importance of long-term health. From immunity teas to clean energy blends and superfoods, these products let you promote balance, focus, and longevity. Your audience doesn’t just look up to your hustle — they want to learn from your habits. Lead the next generation of athletes in and out of the game.",
-    image: '/user-cash.svg',
+    image: '/health.png',
     locked: false,
   },
   {
     id: 9,
     title: 'Book',
     description: "Your story is your power — now publish it. Whether it’s a personal journey, motivational journal, training guide, or kids’ book, the Book service gives you the chance to build a legacy through words. You don’t need a publisher — you need a platform. And now you’ve got one. Inspire the next you by telling the world how you got here.",
-    image: '/user-cash.svg',
+    image: '/book.png',
     locked: false,
   },
   {
     id: 10,
     title: 'Player Card',
     description: "Turn your moment into a collectible. Your official player card is more than a photo and a name — it’s a snapshot of your legacy. Fans will want to collect it, trade it, and show it off. Whether it’s glossy, signed, or limited edition, this is your chance to create something iconic. Cement your presence. Make it official",
-    image: '/user-cash.svg',
+    image: '/player_card.png',
     locked: false,
   },
   {
     id: 11,
     title: 'Coffee',
     description: "More than a caffeine fix — it’s part of the routine. \n This category highlights the daily habits that keep athletes locked in. Whether it’s a morning jumpstart or an evening reset, coffee becomes a steady part of focus, energy, and rhythm. By sharing your blend, you’re letting others tap into the pace that drives you — on and off the court.",
-    image: '/user-cash.svg',
+    image: '/coffee.png',
     locked: false,
   },
   {
     id: 12,
     title: 'Ambassador program',
     description: "Ai powered analytics and instant cashouts\nPlay at the next level\nSocial media promotion\nPro Dashboard\nIndustry leading profit sharing",
-    image: '/user-cash.svg',
+    image: '/Abassador.png',
     locked: false,
   }
 ];
@@ -182,28 +182,33 @@ const Athletes = () => {
 
 
             {/* third section */}
-            <section className="pt-[195px] pb-[98px]">
+            <div className="w-full h-[1px] bg-[#d4bc6d] opacity-30 my-1"></div>
+            <section className="pt-[195px] pb-[98px] ">
                 <div className="2xl:max-w-[1764px] lg:max-w-[1284px] m-auto">
                     <div className="grid grid-cols-2 gap-20 items-center">
-                        <div className="">
-                            <button className="bg-[#2e2e2e] rounded-full px-[38px] py-[13px] text-[#d4bc6d] font-medium text-[0.875rem] mb-9">
-                                Why Choose Us
-                            </button>
-                            <h2 className="text-[4.125rem] font-bold capitalize bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent tracking-[-1.98px]">
-                                {activeFeature.title}
-                                </h2>
-                                <div className="w-[43rem] mx-auto">
-                                <img
-                                    src={activeFeature.image}
-                                    alt={activeFeature.title}
-                                    className="w-full h-[37.625rem] object-contain mb-3.5"
-                                />
-                                <p className="text-[1.125rem] font-medium text-white mb-10 whitespace-pre-line">
-                                    {activeFeature?.description}
-                                </p>
-                                </div>
+                    <div className="">
+                    <button className="bg-[#2e2e2e] rounded-full px-[38px] py-[13px] text-[#d4bc6d] font-medium text-[0.875rem] mb-9">
+                        Why Choose Us
+                    </button>
 
-                        </div>
+                    <h2 className="text-[4.125rem] font-bold capitalize bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent tracking-[-1.98px] text-left mb-8">
+                        {activeFeature.title}
+                    </h2>
+
+                    <div className="w-full text-left">
+                        <img
+                            src={activeFeature.image}
+                            alt={activeFeature.title}
+                            className="w-full max-w-[35rem] h-auto object-contain border-4 border-[#C29A4B] rounded-2xl shadow-md mb-8"
+                        />
+                        <p className="text-[1.125rem] font-medium text-white mb-10 whitespace-pre-line mt-8">
+                            {activeFeature?.description}
+                        </p>
+                    </div>
+                </div>
+
+
+
                         <div className="">
                             <div className="grid grid-cols-2 gap-6">
                                 <div className="flex flex-col gap-3.5">
@@ -251,262 +256,70 @@ const Athletes = () => {
                                         </div>
 
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             12
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
                                             Brand Marketplace
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             13
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
                                             LMS Online Course
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             14
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
                                             Press
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             15
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
                                             Newsroom
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             16
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
-                                            Fan Room
+                                            Fan's Room
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
-                                    <div className="bg-[#ffffff19] flex  items-center p-2 rounded-full">
-                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center" >
+                                    <div className="bg-[#ffffff19] flex items-center p-2 rounded-full">
+                                        <div className="h-[3.125rem] w-[3.125rem] rounded-full text-white text-2xl font-medium bg-[#666666] flex items-center justify-center">
                                             17
                                         </div>
                                         <div className="text-white font-bold text-lg ms-[20px]">
                                             Enterprise Support (MVP)
                                         </div>
                                         <div className="ms-auto me-[20px]">
-                                            <svg
-                                                fill="none"
-                                                height="1.75rem"
-                                                viewBox="0 0 28 28"
-                                                width="1.75rem"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <mask
-                                                    height="28"
-                                                    id="mask0_305_301"
-                                                    maskUnits="userSpaceOnUse"
-                                                    style={{
-                                                        maskType: "alpha",
-                                                    }}
-                                                    width="28"
-                                                    x="0"
-                                                    y="0">
-                                                    <rect fill="url(#pattern0_305_301)" height="28" width="28" />
-                                                </mask>
-                                                <g mask="url(#mask0_305_301)">
-                                                    <rect fill="#D4BC6D" height="28" width="28" x="0.109375" y="0.109375" />
-                                                </g>
-                                                <defs>
-                                                    <pattern
-                                                        height="1"
-                                                        id="pattern0_305_301"
-                                                        patternContentUnits="objectBoundingBox"
-                                                        width="1">
-                                                        <use transform="scale(0.00195312)" xlinkHref="#image0_305_301" />
-                                                    </pattern>
-                                                    <Lock size={48} color="#d4bc6d" />
-                                                </defs>
-                                            </svg>
+                                            <Lock size={28} className="text-[#000000] fill-[#d4bc6d]" />
                                         </div>
                                     </div>
                                 </div>
