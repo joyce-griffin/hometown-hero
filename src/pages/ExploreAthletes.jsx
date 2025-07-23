@@ -5,7 +5,7 @@ const ExploreAthletes = () => {
     return (
         <>
             <section className="bg-black flex flex-col items-center p-2">
-                <h1 className='text-[6.875rem] my-[181px] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent '>
+                <h1 className='text-[6.875rem] my-[40px] text-center uppercase font-extrabold bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent '>
                     Explore Athletes
                 </h1>
                 <div className="">
@@ -101,34 +101,44 @@ const ExploreAthletes = () => {
                 <CarouselSlider2 data={
                     [
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/football-group.svg",
-                            rating: 5,
-                            subTitle: "Seller",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
+                            // name: "AVERY BRINKLEY",
+                            // image: "/football-group.svg",
+                            // rating: 5,
+                            // subTitle: "Seller",
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/football-group.svg",
-                            rating: 5,
-                            subTitle: "Seller",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
+                            // name: "AVERY BRINKLEY",
+                            // image: "/football-group.svg",
+                            // rating: 5,
+                            // subTitle: "Seller",
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/football-group.svg",
-                            rating: 5,
-                            subTitle: "Seller",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
+                            // name: "AVERY BRINKLEY",
+                            // image: "/football-group.svg",
+                            // rating: 5,
+                            // subTitle: "Seller",
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/football-group.svg",
-                            rating: 5,
-                            subTitle: "Seller",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
+                            // name: "AVERY BRINKLEY",
+                            // image: "/football-group.svg",
+                            // rating: 5,
+                            // subTitle: "Seller",
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/football-group.svg",
-                            rating: 5,
-                            subTitle: "Seller",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
+                            // name: "AVERY BRINKLEY",
+                            // image: "/football-group.svg",
+                            // rating: 5,
+                            // subTitle: "Seller",
                         },
                     ]
                 } />
@@ -140,36 +150,36 @@ const ExploreAthletes = () => {
                 <CarouselSlider2 data={
                     [
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/athlete.svg",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
                             rating: 5,
                             subTitle: "Seller",
                             isTrending: true,
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/athlete.svg",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
                             rating: 5,
                             subTitle: "Seller",
                             isTrending: true,
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/athlete.svg",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
                             rating: 5,
                             subTitle: "Seller",
                             isTrending: true,
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/athlete.svg",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
                             rating: 5,
                             subTitle: "Seller",
                             isTrending: true,
                         },
                         {
-                            name: "AVERY BRINKLEY",
-                            image: "/athlete.svg",
+                            name: "Coming Soon",
+                            image: "/question-mark.jpeg",
                             rating: 5,
                             subTitle: "Seller",
                             isTrending: true,
@@ -177,36 +187,20 @@ const ExploreAthletes = () => {
                     ]
                 } />
 
-                <div className="grid grid-cols-5 gap-2.5 max-w-[96rem] mx-auto mt-12 mb-16">
+                <div className="grid grid-cols-6 gap-2.5 max-w-[96rem] mx-auto mt-12 mb-16">
                     <div className="text-center">
-                        <img src="/advance-star.svg" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <img src="/bronze.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
                         <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
-                            Emerald
+                            Bronze 
                         </h4>
                         <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
                             View
                         </button>
                     </div>
+                    
+
                     <div className="text-center">
-                        <img src="/advance-star.svg" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
-                        <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
-                            Diamond
-                        </h4>
-                        <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
-                            View
-                        </button>
-                    </div>
-                    <div className="text-center">
-                        <img src="/advance-star.svg" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
-                        <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
-                            Gold
-                        </h4>
-                        <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
-                            View
-                        </button>
-                    </div>
-                    <div className="text-center">
-                        <img src="/advance-star.svg" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <img src="/Silver.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
                         <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
                             Silver
                         </h4>
@@ -214,15 +208,46 @@ const ExploreAthletes = () => {
                             View
                         </button>
                     </div>
+
                     <div className="text-center">
-                        <img src="/advance-star.svg" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <img src="/Gold.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
                         <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
-                            Bronze
+                            Gold 
                         </h4>
                         <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
                             View
                         </button>
                     </div>
+
+
+                    <div className="text-center">
+                        <img src="/Diamond.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
+                            Diamond 
+                        </h4>
+                        <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
+                            View
+                        </button>
+                    </div>
+                    <div className="text-center">
+                        <img src="/Emerlad.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
+                            Emerald 
+                        </h4>
+                        <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
+                            View
+                        </button>
+                    </div>
+                    <div className="text-center">
+                        <img src="/Royal.png" alt="Athlete" className='w-[9.375rem] h-auto object-contain mx-auto' />
+                        <h4 className='text-[3rem] text-center capitalize font-medium bg-[linear-gradient(to_right,#d4bc6d,#57430d)] bg-clip-text text-transparent mb-4'>
+                           Royal 
+                        </h4>
+                        <button class="bg-[#D4BC6D] text-black text-sm font-medium py-3 px-10 rounded-full shadow-lg transition-colors duration-300 ease-in-out hover:text-black hover:bg-[#D4BC6D]" type='button'>
+                            View
+                        </button>
+                    </div>
+                
                 </div>
             </section>
         </>

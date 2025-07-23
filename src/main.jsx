@@ -22,12 +22,15 @@ import Policy from './pages/Policy.jsx'
 import TwelveDayCounter from './components/TwelveDayCounter.jsx'
 import Login from './pages/Login.jsx'
 import { Toaster } from 'react-hot-toast'
+import ScrollToTop from './components/ScrollToTop.jsx' // adjust path if needed
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Toaster position="top-center" />
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<><Outlet /></>}>
           <Route path="/" element={<App />}>
@@ -50,12 +53,9 @@ createRoot(document.getElementById('root')).render(
             <Route path='subscription' element={<Subscription />} />
             <Route path='reviews' element={<Reviews />} />
             <Route path='graphic' element={<Graphic />} />
-
             <Route path='settings' element={<Settings />} />
-
           </Route>
         </Route>
-
       </Routes>
     </BrowserRouter>
   </StrictMode>,
