@@ -1,10 +1,10 @@
-import { Outlet } from "react-router-dom"
-import Header from "./layout/Header"
-import Footer from "./layout/Footer"
-
+import React from 'react';
+import { Outlet } from "react-router-dom";
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
+import './i18n'; // import i18n config
 
 function App() {
-
   return (
     <>
       <Header />
@@ -13,7 +13,7 @@ function App() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
